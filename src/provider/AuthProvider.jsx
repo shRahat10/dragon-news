@@ -49,14 +49,14 @@ const AuthProvider = ({ children }) => {
     }, [])
 
     useEffect(() => {
-        fetch('/public/news.json')
+        fetch('/news.json')
             .then(res => res.json())
             .then(data => setData(data))
             .catch(error => console.log(error))
     }, [])
 
     useEffect(() => {
-        fetch('/public/categories.json')
+        fetch('/categories.json')
             .then(res => res.json())
             .then(data => setCategory(data))
             .catch(error => console.log(error))

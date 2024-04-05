@@ -42,7 +42,7 @@ const Register = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className=" w-[700px] mx-auto mt-40">
+            <div className=" lg:w-[700px] mx-auto mt-40">
                 <div className="text-center lg:text-left">
                     <h1 className=" text-center text-3xl font-bold">Register your account</h1>
                     <hr className=" mt-10" />

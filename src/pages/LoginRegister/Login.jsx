@@ -48,7 +48,7 @@ const Login = () => {
 
     return (
         <div>
-            <div className=" w-[700px] mx-auto mt-40">
+            <div className=" lg:w-[700px] mx-auto lg:mt-40">
                 <div className="text-center lg:text-left">
                     <h1 className=" text-center text-3xl font-bold">Login your account</h1>
                     <hr className=" mt-10" />
@@ -74,8 +74,8 @@ const Login = () => {
                     </div>
                 </form>
                 <div className=" flex flex-col justify-center items-center gap-2">
-                    <button onClick={handleGoogleSignIn} className=" flex justify-center items-center gap-2 border-2 w-80 py-2 rounded-lg border-blue-400 text-blue-400"><FaGoogle />Login with Google</button>
-                    <button onClick={handleGithubSignIn} className=" flex justify-center items-center gap-2 border-2 w-80 py-2 rounded-lg border-black"><FaGithub />Login with Github</button>
+                    <button onClick={handleGoogleSignIn} className=" flex justify-center items-center gap-2 border-2 w-56 lg:w-80 py-2 rounded-lg border-blue-400 text-blue-400"><FaGoogle />Login with Google</button>
+                    <button onClick={handleGithubSignIn} className=" flex justify-center items-center gap-2 border-2 w-56 lg:w-80 py-2 rounded-lg border-black"><FaGithub />Login with Github</button>
                 </div>
                 <p className=" mt-3 text-center">Do not Have An Account ? <Link className=" text-red-500" to={'/register'}>Register</Link></p>
             </div>
